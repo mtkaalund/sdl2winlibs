@@ -46,7 +46,7 @@ do
 	fi
 done
 
-echo "All donw installing windows libraries"
+echo "All done installing windows libraries"
 echo "Cleaning up"
 for file in "${FILES[@]}"
 do
