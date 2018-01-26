@@ -14,7 +14,7 @@ PREFIX=`pwd`
 for url in "${URLS[@]}"
 do
 	echo "Downloading ${url}"
-	wget --quit ${url}
+	wget --quiet ${url}
 done
 
 for file in "${FILES[@]}"
