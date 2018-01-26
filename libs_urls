@@ -1,0 +1,6 @@
+SDL_URL="http://libsdl.org/release/${SDL_FILE}"
+IMG_URL="https://www.libsdl.org/projects/SDL_image/release/${IMG_FILE}"
+MIX_URL="https://www.libsdl.org/projects/SDL_mixer/release/${MIX_FILE}"
+TTF_URL="https://www.libsdl.org/projects/SDL_ttf/release/${TTF_FILE}"
+
+URLS=( ${SDL_URL} ${IMG_URL} ${MIX_URL} ${TTF_URL} )

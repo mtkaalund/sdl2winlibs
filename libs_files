@@ -1,0 +1,6 @@
+SDL_FILE="SDL2-devel-${SDL_VER}-mingw.tar.gz"
+IMG_FILE="SDL2_image-devel-${IMG_VER}-mingw.tar.gz"
+MIX_FILE="SDL2_mixer-devel-${MIX_VER}-mingw.tar.gz"
+TTF_FILE="SDL2_ttf-devel-${TTF_VER}-mingw.tar.gz"
+
+FILES=( ${SDL_FILE} ${IMG_FILE} ${MIX_FILE} ${TTF_FILE} )

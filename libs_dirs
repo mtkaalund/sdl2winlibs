@@ -1,0 +1,6 @@
+SDL_DIR="SDL2-${SDL_VER}"
+IMG_DIR="SDL2_image-${IMG_VER}"
+MIX_DIR="SDL2_mixer-${MIX_VER}"
+TTF_DIR="SDL2_ttf-${TTF_VER}"
+
+DIRS=( ${SDL_DIR} ${IMG_DIR} ${MIX_DIR} ${TTF_DIR} )
